@@ -1,0 +1,26 @@
+package core;
+import org.junit.Test;
+
+import junit.framework.TestCase;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class StackTestCase extends TestCase {
+
+	//TC1
+	public void  testCreateNewEmptyStack() {
+		Stack s1 = new Stack();
+		assertEquals (true,s1.isEmpty());
+		//or
+		assertEquals(0,s1.getSize());
+	}
+	
+	//TC2
+	public void testPushElmToTp() {
+		
+		//ceate new stack 
+		Stack s2 = new Stack();}
+
+}
